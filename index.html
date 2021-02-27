@@ -6,9 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css" integrity="sha512-sqIVMkf5f8XGYI/UZYGs7wODxlUeoj9JknataPfUwtvrSKWMHrMXGZ7Evb6nabFYJQG15vFFyALe6r0nWCD1Ug==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"
+        integrity="sha512-sqIVMkf5f8XGYI/UZYGs7wODxlUeoj9JknataPfUwtvrSKWMHrMXGZ7Evb6nabFYJQG15vFFyALe6r0nWCD1Ug=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -17,10 +24,12 @@
     <header class="header">
         <nav class="navigation">
             <ul class="list">
-                <li><a class="navigation-logo link" href="">WebStudio</a></li>
-                <li><a class="navigation-link link" href="">Студия</a></li>
-                <li><a class="navigation-link link" href="">Портфолио</a></li>
-                <li><a class="navigation-link link" href="">Контакты</a></li>
+                <li><a class="navigation-logo link" href=""> <span class="blueWeb">Web</span> Studio</a></li>
+            </ul>
+            <ul class="list">
+                <li><a class="navigation-link current link" href="navigation-link">Студия</a></li>
+                <li><a href="./portfolio.html" class="navigation-link link">Портфолио</a></li>
+                <li><a class="navigation-link link" href="navigation-link">Контакты</a></li>
             </ul>
         </nav>
         <ul class="navigation-list">
@@ -36,64 +45,73 @@
                 <button class="hero-modal-btn" type="button">Заказать услугу</button>
             </section>
         <!--Особенности-->
-        <section>
-            <ul class="list">
-                <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <section class="section">
+            <ul class="feature list">
+                <li class="feature-head">
+                    <h3 class="feature-title">Внимание к деталям</h3>
+                    <p class="suptitle-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <li class="feature-head">
+                    <h3 class="feature-title">Пунктуальность</h3>
+                    <p class="suptitle-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <li class="feature-head">
+                    <h3 class="feature-title">Планирование</h3>
+                    <p class="suptitle-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <li class="feature-head">
+                    <h3 class="feature-title">Современные технологии</h3>
+                    <p class="suptitle-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
         <!--Чем мы занимаемся-->
-        <section>
-            <h3>Чем мы занимаемся</h3>
+        <section class="section">
+            <h3 class="study">Чем мы занимаемся</h3>
             <ul class="list">
-                <li>
+                <li class="box-1">
                     <img src="./img/box1.svg" alt="computer" width="370"/>
                 </li>
-                <li>
+                <li class="box-2">
                     <img src="./img/box2.svg" alt="mobile" width="370"/>
                 </li>
-                <li>
+                <li class="box-3">
                     <img src="./img/box3.svg" alt="the tablet" width="370"/>
                 </li>
             </ul>
         </section>
         <!--Наша команда-->
-        <section>
-            <h4>Наша команда</h4>
+        <section class="section">
+            <h4 class="study">Наша команда</h4>
             <ul class="list">
                 <li>
                     <a class="link" href="">
                         <img src="./img/ИгорьДемьяненко.jpg" alt="Product Designer" width="270"/>
                     </a>
+                    <figure class="name link">Игорь Демьяненко</figure>
+                    <p class="suptitle-text">Product Designer</p> 
+        
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./img/ОльгаРепина.jpg" alt="Frontend Developer" width="270"/>
                     </a>
+                    <figure class="name link">Ольга Репина</figure>
+                    <p class="suptitle-text">Frontend Developer</p>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./img/НиколайТарасов.jpg" alt="Marketing" width="270"/>
                     </a>
+                    <figure class="name link">Николай Тарасов</figure>
+                    <p class="suptitle-text">Marketing</p>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./img/МихаилЕрмаков.jpg" alt="UI Designer" width="270"/>
                     </a>
+                    <figure class="name link">Михаил Ермаков</figure>
+                    <p class="suptitle-text">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -102,19 +120,21 @@
     <!--Подвал-->
     <footer>
         <address class="address">
-            <ul class="list">
-                <li><a class="link" href="">WebStudio</a></li>
+            <ul class="navigation list">
+                <li><a class="link" href=""><span class="blueWeb">Web</span> Studio</a></li>
             </ul>
-            <ul class="list">
+            <ul class="navigation list">
                 <li>
-                    <a class="link" href="https://goo.gl/maps/A57iTuf1dKfxFPnn9" target="_blank" rel="noopener noreferrer">Киев, пр-т
+                    <a class="navigation-link link" href="https://goo.gl/maps/A57iTuf1dKfxFPnn9" target="_blank" rel="noopener noreferrer">Киев, пр-т
                     Леси Украинки, 26</a>
                 </li>
             </ul>        
             <ul class="list">  
                 <li>
-                    <a class="link" href="info@devstudio.com">info@devstudio.com</a>
-                    <a class="link" class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="navigation-link link" href="info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
